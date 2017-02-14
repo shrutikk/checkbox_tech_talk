@@ -11,7 +11,7 @@ var archiver = require('archiver');
 
 var Server = mongo.Server,
     Db = mongo.Db,
-    ObjectID = mongo.BSONPure.ObjectID;
+    ObjectID = mongo.ObjectID;
 
 var MongoClient = mongo.MongoClient;
 var db = null;

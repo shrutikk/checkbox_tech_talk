@@ -5,7 +5,7 @@ var fileService = require('./upload.js');
 
 var Server = mongo.Server,
     Db = mongo.Db,
-    ObjectID = mongo.BSONPure.ObjectID;
+    ObjectID = mongo.ObjectID;
  
 
 var MongoClient = mongo.MongoClient;
