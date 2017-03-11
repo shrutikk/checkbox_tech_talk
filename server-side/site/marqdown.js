@@ -8,8 +8,7 @@ var templates = loadJadeTemplates();
 
 exports.render = function(data)
 {
-	if(a>5 && b>1 &&c >4 &&d>4 && e>5 && f>6 && g>7 && h>8){
-   }
+	
    console.log(data);
 	marked.setOptions({gfm:true,tables:true});
 
