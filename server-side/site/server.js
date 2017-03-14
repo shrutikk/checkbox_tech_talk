@@ -87,6 +87,7 @@ app.post('/api/study/admin/notify/', admin.notifyParticipant);
 //app.get('/api/design/survey/vote/stat/:id', votes.getSurveyStats );
 
 
+trace.incrementMetric('api/study/listing');
 
 app.listen(3002);
 console.log('Listening on port 3002...');
